@@ -1,0 +1,91 @@
+body {
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family:system-ui;
+	box-sizing: border-box;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: rgb(8, 38, 66); 
+	border-bottom: 2px solid rgb(8, 38, 66)
+}
+
+input {
+	display: block;
+	border: 2px solid rgb(8, 38, 66);
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	font-weight: bold;
+	color: rgb(8, 38, 66);
+	letter-spacing: 1px;
+}
+
+input::placeholder{
+	color: rgb(8, 38, 66);
+	font-weight: 700;
+}
+label {
+	color: rgb(8, 38, 66);
+	font-size: 18px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+button {
+	float: right;
+	background: rgb(15, 74, 130);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	background: rgb(8, 38, 66);
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(15, 74, 130);	
+	font-weight: bold;
+}
+.ca:hover {
+	color: rgb(6, 51, 94);
+	text-decoration: underline;
+} 
